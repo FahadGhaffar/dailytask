@@ -7,9 +7,12 @@ function App() {
 
 
   return (
-      <div className='w-full h-screen bg-slate-700 hover:bg-white' >
+      <div className='w-full h-[500px] bg-slate-700  ' >
+            <div className='container h-full flex   mx-auto bg-black '>
+                        <div> </div>
+                        <div></div>
+            </div>
 
-  hello
       </div>
   )
 }
