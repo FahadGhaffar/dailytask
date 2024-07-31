@@ -8,9 +8,21 @@ function App() {
 
   return (
       <div className='w-full h-[500px] bg-slate-700  ' >
-            <div className='container h-full flex   mx-auto bg-black '>
-                        <div> </div>
-                        <div></div>
+            <div className='container h-full flex justify-evenly  mx-auto bg-white '>
+                        <div> 
+                          <h2>ENHANCE</h2>
+                          <h1>Your Beauty</h1>
+
+                          <p>Achieve the Look You Desire
+                          with Safe and Professional Treatments</p>
+                          
+                          <div className='flex '>
+                            <button>Transform Your Look!</button>
+                            <button>Call Us Today!</button>
+                            
+                            </div>
+                          </div>
+                        <div> world</div>
             </div>
 
       </div>
