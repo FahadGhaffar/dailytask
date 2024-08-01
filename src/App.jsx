@@ -9,7 +9,7 @@ function App() {
       {/* <div className='w-full h-full  bg-red-600/30 backdrop-brightness-75'> */}
       <div className="w-full h-full bg-gradient-to-r  from-red-900/100 to-red-600/30 backdrop-brightness-75 ">
         <div className="container h-full flex justify-around  mx-auto items-center ">
-          <div>
+          <div className="w-full h-full">
             <h1 className="text-white text-5xl font-normal font-Bebas_Neue">
               Your Trusted Student <br />
               Storage Solution
@@ -27,7 +27,9 @@ function App() {
               <button>Call Us Today!</button>
             </div>
           </div>
+          <div className="w-full h-full">
           <div> world</div>
+          </div>
         </div>
       </div>
     </div>
