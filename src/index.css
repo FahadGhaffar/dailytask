@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+    font-family: "Bebas_Neue";
+    src: url("./assets/fonts/BebasNeue-Regular.ttf");
+  }
+
+
+@font-face {
+    font-family: "Lato_Regular";
+    src: url("./assets/fonts/Lato-Regular.ttf");
+}
