@@ -31,7 +31,12 @@ function App() {
           
           </div>
           <div className="w-full h-full flex justify-center items-center">
-          <div className="flex w-3/4 h-3/4 bg-white rounded-xl w-11/12 "> world</div>
+          <div className="flex  h-3/4 bg-white rounded-xl w-11/12  py-11">
+           <div className="flex h-12 w-full justify-center items-center">
+            <h2 className="text-[#CD162E] uppercase text-4xl font-semibold">Sign up Today </h2>
+           </div>
+          
+          </div>
           </div>
         </div>
       </div>
