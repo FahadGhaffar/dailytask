@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GlobalButton = ({name}) => {
+export const GlobalButton = ({name}) => {
   return (
     <div className='flex items-center  '>
     
@@ -10,4 +10,4 @@ const GlobalButton = ({name}) => {
   )
 }
 
-export default GlobalButton
+// export default GlobalButton

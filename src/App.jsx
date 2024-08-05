@@ -4,7 +4,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import studentGroup from "./assets/Images/pexels-kampus-5940827.jpg";
 
-import GlobalButton from "./components/Button";
+import { GlobalButton } from "./components";
+// import GlobalButton from "./components/Button";
+import { Form } from "./Form";
 function App() {
   return (
     <div className="w-full h-[500px] bg-[url(./assets/Images/pexels-kampus-5940827.jpg)] bg-no-repeat bg-center bg-cover">
@@ -31,11 +33,13 @@ function App() {
           
           </div>
           <div className="w-full h-full flex justify-center items-center">
-          <div className="flex  h-3/4 bg-white rounded-xl w-11/12  py-11">
-           <div className="flex h-12 w-full justify-center items-center">
+          <div className="flex flex-row   h-3/4 bg-white rounded-xl w-11/12  py-11">
+           <div className="flex  h-12 w-full justify-center items-center">
             <h2 className="text-[#CD162E] uppercase text-4xl font-semibold">Sign up Today </h2>
+           
+
            </div>
-          
+           <div className="w-full h-full"><Form/> </div>
           </div>
           </div>
         </div>

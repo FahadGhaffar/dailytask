@@ -14,3 +14,7 @@
     font-family: "Lato_Regular";
     src: url("./assets/fonts/Lato-Regular.ttf");
 }
+
+/* .container {
+  @apply w-full max-w-3xl p-5 mx-auto;
+} */
