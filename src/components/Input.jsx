@@ -57,7 +57,7 @@ export const Input = ({ label, type, id, placeholder,validation, name, multiline
      ( <input
         id={id}
         type={type}
-        className="w-full p-5 font-medium border rounded-md border-slate-300 placeholder:opacity-60"
+        className="w-full p-5 font-medium border-b-2  border-slate-950 placeholder:opacity-60"
         placeholder={placeholder}
         {...register(name, validation)}
       />)}

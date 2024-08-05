@@ -8,10 +8,11 @@
 
 export const name_validation = {
   name: 'name',
-  label: 'name',
+  // label: 'name',
   type: 'text',
   id: 'name',
-  placeholder: 'write your name ...',
+  // placeholder: 'write your name ...',
+  placeholder: 'Full Name',
   validation: {
     required: {
       value: true,
@@ -29,7 +30,8 @@ export const desc_validation = {
   label: 'description',
   multiline: true,
   id: 'description',
-  placeholder: 'write description ...',
+  // placeholder: 'write description ...',
+  placeholder: 'Description',
   validation: {
     required: {
       value: true,
@@ -44,10 +46,11 @@ export const desc_validation = {
 
 export const password_validation = {
   name: 'password',
-  label: 'password',
+  // label: 'password',
   type: 'password',
   id: 'password',
-  placeholder: 'type password ...',
+  // placeholder: 'type password ...',
+  placeholder: 'Password',
   validation: {
     required: {
       value: true,
@@ -62,10 +65,11 @@ export const password_validation = {
 
 export const num_validation = {
   name: 'num',
-  label: 'number',
+  // label: 'number',
   type: 'tel',
   id: 'num',
-  placeholder: 'write a random number',
+  // placeholder: 'write a random number',
+  placeholder: 'Phone Number',
   validation: {
     required: {
       value: true,
@@ -76,10 +80,11 @@ export const num_validation = {
 
 export const email_validation = {
   name: 'email',
-  label: 'email address',
+  // label: 'email address',
   type: 'email',
   id: 'email',
-  placeholder: 'write a random email address',
+  // placeholder: 'write a random email address',
+  placeholder: 'Email Address',
   validation: {
     required: {
       value: true,

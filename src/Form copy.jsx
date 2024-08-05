@@ -72,15 +72,15 @@ export const Form = () => {
 
           <Input {...email_validation} />
           <Input {...num_validation} />
-          {/* <Input {...desc_validation}  className="md:col-span-2" /> */}
+          <Input {...desc_validation}  className="md:col-span-2" />
         </div>
         <div className="mt-5">
           <button
             onClick={onSubmit}
-            className="w-full flex item-center justify-center gap-1 p-3 font-semibold text-white bg-[#CD162E] rounded-3xl hover:bg-[#56ACDE]"
+            className="flex item-center gap-1 p-5 font-semibold text-while bg-blue-600 rounded-md hover:bg-blue-800"
           >
-            {/* <GrMail /> */}
-            Get Started
+            <GrMail />
+            Submit Form
           </button>
         </div>
       </form>
