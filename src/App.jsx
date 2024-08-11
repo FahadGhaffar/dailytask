@@ -4,12 +4,13 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import studentGroup from "./assets/Images/pexels-kampus-5940827.jpg";
 
-import { GlobalButton } from "./components";
+
+import { GlobalButton,PasswordField } from "./components";
 // import GlobalButton from "./components/Button";
 import { Form } from "./Form";
 function App() {
   return (
-    <div className="w-full  bg-[url(./assets/Images/pexels-kampus-5940827.jpg)] bg-no-repeat bg-center bg-cover">
+    <>    <section className="w-full  bg-[url(./assets/Images/pexels-kampus-5940827.jpg)] bg-no-repeat bg-center bg-cover">
       {/* <div className='w-full h-full  bg-red-600/30 backdrop-brightness-75'> */}
       <div className="w-full py-12 h-full bg-gradient-to-r  from-red-900/100 to-red-600/30 backdrop-brightness-75 ">
         <div className="container flex flex-col h-full justify-around mx-auto items-center  md:flex-row">
@@ -45,7 +46,16 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section className="w-full ">
+      <div className="w-full container py-12 h-full  mx-auto flex justify-center items-center">
+          
+    <PasswordField/>
+      </div>
+
+    </section>
+    </>
+
   );
 }
 
